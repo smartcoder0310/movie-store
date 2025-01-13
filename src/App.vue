@@ -2,7 +2,7 @@
   <v-app :dark="false" id="inspire">
     <v-navigation-drawer v-model="drawer" :class="[!storeThemeSwitch.darkMode ? 'bg-blue-grey-darken-4' : 'white']">
       <template v-slot:prepend>
-        <v-list-item lines="two" prepend-avatar="@/assets/me.png" title="Emre Süslü" subtitle="Logged in"></v-list-item>
+        <v-list-item lines="two" prepend-avatar="@/assets/me.png" title="Current User" subtitle="Logged in"></v-list-item>
       </template>
 
       <v-divider />
